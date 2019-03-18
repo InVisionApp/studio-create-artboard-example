@@ -1,0 +1,13 @@
+{
+  "name": "create-artboard-example",
+  "displayName": "Create artboard example.",
+  "description": "Create artboard example.",
+  "licenses": ["MIT"],
+  "version": "0.1.0",
+  "manifestVersion": "0.1.0",
+  "author": {
+    "name": "Elliott Risby",
+    "email": "elliottrisby@invisionapp.com"
+  },
+  "dockIcon": "assets/tmpIcon.svg"
+}

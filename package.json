@@ -1,0 +1,62 @@
+{
+  "name": "studio-typescript-boilerplate-plugin",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "license": "MIT",
+  "keywords": [
+    "invision",
+    "studio",
+    "plugin",
+    "labs"
+  ],
+  "description": "",
+  "author": {
+    "name": "Elliott Risby",
+    "email": "elliottrisby@invisionapp.com"
+  },
+  "scripts": {
+    "build:development": "webpack --config ./webpack.config.js --mode development",
+    "build:production": "webpack --config ./webpack.config.js --mode production",
+    "build": "npm run build:production",
+    "dev": "npm run build:development -- --watch",
+    "test": "jest --watch"
+  },
+  "engines": {
+    "node": "8.x || 10.x",
+    "npm": "5.x || 6.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@invisionapp/studio-api": "^3.0.0",
+    "@types/enzyme": "^3.1.14",
+    "@types/jest": "^23.3.3",
+    "@types/react": "^16.4.14",
+    "@types/react-test-renderer": "^16.0.3",
+    "babel-loader": "^8.0.4",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "chalk": "^2.4.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "4.5.2",
+    "enzyme": "^3.6.0",
+    "file-loader": "^2.0.0",
+    "jest": "^23.6.0",
+    "node-fetch": "^2.2.0",
+    "prettier": "^1.14.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "ts-jest": "^23.10.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}
