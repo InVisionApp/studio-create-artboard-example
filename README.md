@@ -2,6 +2,10 @@
 
 Example creating an artboard node in Studio.
 
+## Issue
+
+Font support does not work as expected.
+
 Font defaults to Arial and does not render the correct font weights.
 
 ## Installation
